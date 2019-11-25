@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Striduino-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1188,69 +1189,124 @@ Wire Wire Line
 	4780 3040 4780 3140
 Connection ~ 4780 3140
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO3
-U 1 1 5E0EC39B
-P 6210 7530
-F 0 "#LOGO3" H 6210 7805 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6210 7305 50  0001 C CNN
-F 2 "µ104KiCAD:SN_BLOCK" H 6210 7530 50  0001 C CNN
-F 3 "~" H 6210 7530 50  0001 C CNN
-	1    6210 7530
+L Connector_Generic:Conn_01x01 Logo1
+U 1 1 5DDD0544
+P 12030 8210
+F 0 "Logo1" H 12110 8252 50  0000 L CNN
+F 1 "x" H 12110 8161 50  0000 L CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 12030 8210 50  0001 C CNN
+F 3 "~" H 12030 8210 50  0001 C CNN
+	1    12030 8210
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO6
-U 1 1 5E0ECC05
-P 6700 7520
-F 0 "#LOGO6" H 6700 7795 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6700 7295 50  0001 C CNN
-F 2 "µ104KiCAD:SN_BLOCK" H 6700 7520 50  0001 C CNN
-F 3 "~" H 6700 7520 50  0001 C CNN
-	1    6700 7520
+L Connector_Generic:Conn_01x01 Logo5
+U 1 1 5DDD1080
+P 12550 8210
+F 0 "Logo5" H 12630 8252 50  0000 L CNN
+F 1 "x" H 12630 8161 50  0000 L CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 12550 8210 50  0001 C CNN
+F 3 "~" H 12550 8210 50  0001 C CNN
+	1    12550 8210
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
-U 1 1 5E0ECE40
-P 6200 7080
-F 0 "#LOGO1" H 6200 7355 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6200 6855 50  0001 C CNN
-F 2 "pics:stride" H 6200 7080 50  0001 C CNN
-F 3 "~" H 6200 7080 50  0001 C CNN
-	1    6200 7080
+L Connector_Generic:Conn_01x01 Logo2
+U 1 1 5DDD1750
+P 12040 8030
+F 0 "Logo2" H 12120 8072 50  0000 L CNN
+F 1 "x" H 12120 7981 50  0000 L CNN
+F 2 "Symbol:KiCad-Logo2_8mm_SilkScreen" H 12040 8030 50  0001 C CNN
+F 3 "~" H 12040 8030 50  0001 C CNN
+	1    12040 8030
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO5
-U 1 1 5E0EE2E9
-P 6690 7090
-F 0 "#LOGO5" H 6690 7365 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6690 6865 50  0001 C CNN
-F 2 "pics:datboi" H 6690 7090 50  0001 C CNN
-F 3 "~" H 6690 7090 50  0001 C CNN
-	1    6690 7090
+L Connector_Generic:Conn_01x01 Logo6
+U 1 1 5DDD1ACE
+P 12560 8040
+F 0 "Logo6" H 12640 8082 50  0000 L CNN
+F 1 "x" H 12640 7991 50  0000 L CNN
+F 2 "µ104KiCAD:SN_BLOCK" H 12560 8040 50  0001 C CNN
+F 3 "~" H 12560 8040 50  0001 C CNN
+	1    12560 8040
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO2
-U 1 1 5E0EE962
-P 6210 6640
-F 0 "#LOGO2" H 6210 6915 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6210 6415 50  0001 C CNN
-F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 6210 6640 50  0001 C CNN
-F 3 "~" H 6210 6640 50  0001 C CNN
-	1    6210 6640
+L Connector_Generic:Conn_01x01 Logo8
+U 1 1 5DDD1F00
+P 12570 7860
+F 0 "Logo8" H 12650 7902 50  0000 L CNN
+F 1 "x" H 12650 7811 50  0000 L CNN
+F 2 "µ104KiCAD:SN_BLOCK" H 12570 7860 50  0001 C CNN
+F 3 "~" H 12570 7860 50  0001 C CNN
+	1    12570 7860
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO4
-U 1 1 5E0EECD7
-P 6680 6640
-F 0 "#LOGO4" H 6680 6915 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6680 6415 50  0001 C CNN
-F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 6680 6640 50  0001 C CNN
-F 3 "~" H 6680 6640 50  0001 C CNN
-	1    6680 6640
+L Connector_Generic:Conn_01x01 Logo4
+U 1 1 5DDD2224
+P 12060 7860
+F 0 "Logo4" H 12140 7902 50  0000 L CNN
+F 1 "x" H 12140 7811 50  0000 L CNN
+F 2 "pics:stride" H 12060 7860 50  0001 C CNN
+F 3 "~" H 12060 7860 50  0001 C CNN
+	1    12060 7860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Logo3
+U 1 1 5DDD264F
+P 12060 7700
+F 0 "Logo3" H 12140 7742 50  0000 L CNN
+F 1 "x" H 12140 7651 50  0000 L CNN
+F 2 "pics:datboi" H 12060 7700 50  0001 C CNN
+F 3 "~" H 12060 7700 50  0001 C CNN
+	1    12060 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Logo7
+U 1 1 5DDD28D4
+P 12570 7700
+F 0 "Logo7" H 12650 7742 50  0000 L CNN
+F 1 "x" H 12650 7651 50  0000 L CNN
+F 2 "pics:datboi" H 12570 7700 50  0001 C CNN
+F 3 "~" H 12570 7700 50  0001 C CNN
+	1    12570 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Logo9
+U 1 1 5DDFF180
+P 12060 7520
+F 0 "Logo9" H 12140 7562 50  0000 L CNN
+F 1 "x" H 12140 7471 50  0000 L CNN
+F 2 "pics:bolt" H 12060 7520 50  0001 C CNN
+F 3 "~" H 12060 7520 50  0001 C CNN
+	1    12060 7520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Logo11
+U 1 1 5DDFF59F
+P 12580 7510
+F 0 "Logo11" H 12660 7552 50  0000 L CNN
+F 1 "x" H 12660 7461 50  0000 L CNN
+F 2 "pics:bolt" H 12580 7510 50  0001 C CNN
+F 3 "~" H 12580 7510 50  0001 C CNN
+	1    12580 7510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Logo10
+U 1 1 5DDFF830
+P 12070 7330
+F 0 "Logo10" H 12150 7372 50  0000 L CNN
+F 1 "x" H 12150 7281 50  0000 L CNN
+F 2 "pics:chip" H 12070 7330 50  0001 C CNN
+F 3 "~" H 12070 7330 50  0001 C CNN
+	1    12070 7330
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
